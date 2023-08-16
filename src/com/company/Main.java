@@ -30,6 +30,6 @@ public class Main {
         t1.setDaemon(true);
         new Thread(t2).start();
         t1.start();
-
+        System.out.println("hello!");
     }
 }
